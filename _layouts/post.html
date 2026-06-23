@@ -1,18 +1,16 @@
 ---
 layout: default
 ---
-<article class="post">
-  <h1>{{ page.title }}</h1>
-  <p class="post-meta">
-    {{ page.date | date: "%d %B %Y" }}
-    {% if page.categories %}
-      · {{ page.categories | join: ", " }}
-    {% endif %}
-  </p>
-
-  {{ content }}
-
-  <hr>
-
-  <p><a href="/articles/">← Back to articles</a></p>
-</article>
+<section class="content-page">
+  <article class="post">
+    <p class="post-meta">
+      {{ page.date | date: "%d %B %Y" }}
+      {% if page.categories %}
+        · {{ page.categories | join: ", " }}
+      {% endif %}
+    </p>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+    <p><a class="read-more" href="/articles/">← Back to articles</a></p>
+  </article>
+</section>

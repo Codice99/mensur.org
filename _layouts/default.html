@@ -8,60 +8,29 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <div class="page">
+  <header class="topbar">
+    <a class="brand" href="/">Mensur</a>
+    <button class="nav-toggle" id="navToggle">Menu</button>
+    <nav class="nav" id="siteNav">
+      <a href="/">Home</a>
+      <a href="/project/">Project</a>
+      <a href="/research-lines/">Research</a>
+      <a href="/articles/">Articles</a>
+      <a href="/notes/">Notes</a>
+      <a href="/archive/">Archive</a>
+      <a href="/bibliography/">Bibliography</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
 
-    <header class="site-header">
-      <div>
-        <a class="site-title" href="/">Mensur</a>
-        <p class="site-subtitle">A research archive on lineage, law and European memory.</p>
-      </div>
+  <main>
+    {{ content }}
+  </main>
 
-      <nav class="site-nav">
-        <a href="/">Home</a>
-        <a href="/project/">Project</a>
-        <a href="/research-lines/">Research Lines</a>
-        <a href="/articles/">Articles</a>
-        <a href="/notes/">Notes</a>
-        <a href="/archive/">Archive</a>
-        <a href="/bibliography/">Bibliography</a>
-        <a href="/about/">About</a>
-      </nav>
-    </header>
+  <footer class="footer">
+    <p>© {{ site.time | date: "%Y" }} Mensur · Independent research archive.</p>
+  </footer>
 
-    <main class="layout">
-      <aside class="sidebar">
-        <section>
-          <h3>Mensur</h3>
-          <p>Lineage, law, memory, symbolism and European intellectual history.</p>
-        </section>
-
-        <section>
-          <h3>Research Lines</h3>
-          <ul>
-            <li>Mediterranean–Levantine</li>
-            <li>Germanic–Alpine</li>
-            <li>Nordic–Arctic</li>
-            <li>Eastern Slavic–Eurasian</li>
-            <li>Energy Law & Hydrogen</li>
-            <li>Symbolism & Intellectual History</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Archive</h3>
-          <p>Personal research notes, essays, genealogical fragments and doctoral reflections.</p>
-        </section>
-      </aside>
-
-      <article class="content">
-        {{ content }}
-      </article>
-    </main>
-
-    <footer class="site-footer">
-      <p>© {{ site.time | date: "%Y" }} Mensur. Independent research archive.</p>
-    </footer>
-
-  </div>
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>
