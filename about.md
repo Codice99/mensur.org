@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About
 
 Gabriel Gabrielli Sánchez is a lawyer, economist and doctoral researcher working on European energy regulation, renewable hydrogen and regulatory design.
 

@@ -4,7 +4,6 @@ title: Bibliography
 permalink: /bibliography/
 ---
 
-# Bibliography
 
 Books, academic articles, legal sources, archival records, primary documents and digital repositories used in the Mensur project.
 

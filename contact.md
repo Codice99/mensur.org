@@ -4,7 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-# Contact
 
 For scholarly correspondence, corrections, archival references or research collaboration:
 

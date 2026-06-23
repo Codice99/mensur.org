@@ -4,7 +4,6 @@ title: Articles
 permalink: /articles/
 ---
 
-# Articles
 
 Long-form essays, research articles and structured reflections.
 

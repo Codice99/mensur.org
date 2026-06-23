@@ -4,7 +4,6 @@ title: Notes
 permalink: /notes/
 ---
 
-# Notes
 
 Short reflections, research fragments, archival findings, hypotheses, reading notes and personal intellectual observations.
 

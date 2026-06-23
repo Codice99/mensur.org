@@ -4,7 +4,6 @@ title: Archive
 permalink: /archive/
 ---
 
-# Archive
 
 Selected documents, references, genealogical material, images and archival notes.
 

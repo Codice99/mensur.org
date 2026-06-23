@@ -4,7 +4,6 @@ title: Research Lines
 permalink: /research-lines/
 ---
 
-# Research Lines
 
 ## I. Mediterranean–Levantine
 
