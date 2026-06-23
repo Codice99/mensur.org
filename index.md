@@ -15,7 +15,7 @@ title: Home
     </p>
     <div class="hero-actions">
       <a class="button primary" href="/project/">The Project</a>
-      <a class="button secondary" href="/about/">About Gabriel</a>
+      <a class="button secondary" href="/about/">About</a>
     </div>
   </div>
 </section>

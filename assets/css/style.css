@@ -576,3 +576,196 @@ a {
   border: 1px solid rgba(255, 248, 236, 0.35) !important;
   background: rgba(255, 255, 255, 0.08) !important;
 }
+
+/* TRUE GLASS NAVIGATION OVER HERO - FINAL */
+.topbar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+
+  height: 72px !important;
+  min-height: 72px !important;
+  padding: 0 6vw !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(5, 9, 18, 0.58),
+    rgba(5, 9, 18, 0.22)
+  ) !important;
+
+  backdrop-filter: blur(8px) saturate(115%) !important;
+  -webkit-backdrop-filter: blur(8px) saturate(115%) !important;
+
+  border-bottom: 1px solid rgba(214, 189, 122, 0.34) !important;
+  box-shadow: none !important;
+}
+
+/* Brand only: Mensur */
+.brand {
+  color: #fff8ec !important;
+  font-size: 26px !important;
+  line-height: 1 !important;
+  letter-spacing: 0.055em !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  margin: 0 !important;
+}
+
+.brand::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* Compact menu */
+.nav {
+  display: flex !important;
+  align-items: center !important;
+  gap: 15px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  font-size: 11px !important;
+  line-height: 1 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.085em !important;
+}
+
+.nav a {
+  color: rgba(255, 248, 236, 0.84) !important;
+  text-decoration: none !important;
+  padding: 29px 0 25px 0 !important;
+  border-bottom: 2px solid transparent !important;
+}
+
+.nav a:hover {
+  color: #ffffff !important;
+  border-bottom: 2px solid #d6bd7a !important;
+}
+
+/* Hero now starts under the transparent nav */
+.hero {
+  margin-top: 0 !important;
+  min-height: 78vh !important;
+  padding: 130px 6vw 76px 6vw !important;
+  display: flex !important;
+  align-items: center !important;
+  background-position: center 38% !important;
+  border-bottom: 4px solid #b89b5e !important;
+}
+
+/* Cleaner hero card */
+.hero-content {
+  max-width: 690px !important;
+  padding: 28px 30px !important;
+  background: rgba(5, 8, 16, 0.44) !important;
+  border-left: 4px solid #b89b5e !important;
+  backdrop-filter: blur(3px) saturate(110%) !important;
+  -webkit-backdrop-filter: blur(3px) saturate(110%) !important;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.24) !important;
+}
+
+.hero .eyebrow {
+  margin: 0 0 10px 0 !important;
+  font-size: 10px !important;
+  letter-spacing: 0.16em !important;
+}
+
+.hero h1 {
+  font-size: clamp(58px, 8vw, 104px) !important;
+  line-height: 0.9 !important;
+  margin: 0 !important;
+  letter-spacing: -0.045em !important;
+}
+
+.hero-subtitle {
+  margin: 18px 0 0 0 !important;
+  font-size: clamp(24px, 2.7vw, 35px) !important;
+  line-height: 1.12 !important;
+}
+
+.hero-text {
+  margin-top: 15px !important;
+  max-width: 620px !important;
+  font-size: 16px !important;
+  line-height: 1.58 !important;
+}
+
+.hero-actions {
+  margin-top: 22px !important;
+  display: flex !important;
+  gap: 10px !important;
+}
+
+.button {
+  padding: 10px 16px !important;
+  font-size: 13px !important;
+  border-radius: 999px !important;
+}
+
+/* Less empty vertical space below */
+.section {
+  padding: 54px 6vw !important;
+}
+
+.section-heading {
+  margin-bottom: 24px !important;
+}
+
+.two-column {
+  gap: 42px !important;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .topbar {
+    height: 64px !important;
+    min-height: 64px !important;
+    padding: 0 22px !important;
+    flex-wrap: wrap !important;
+  }
+
+  .brand {
+    font-size: 24px !important;
+  }
+
+  .nav-toggle {
+    display: block !important;
+    color: #fff8ec !important;
+    border: 1px solid rgba(255, 248, 236, 0.35) !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+  }
+
+  .nav {
+    display: none !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    padding: 12px 0 16px 0 !important;
+    background: rgba(5, 9, 18, 0.86) !important;
+  }
+
+  .nav.open {
+    display: flex !important;
+  }
+
+  .nav a {
+    padding: 8px 0 !important;
+  }
+
+  .hero {
+    min-height: 70vh !important;
+    padding: 104px 22px 48px 22px !important;
+  }
+
+  .hero-content {
+    padding: 22px 24px !important;
+  }
+}
