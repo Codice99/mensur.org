@@ -1,18 +1,58 @@
----
-layout: null
-permalink: /sitemap.xml
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% assign all_pages = site.pages | concat: site.posts %}
-{% for item in all_pages %}
-{% unless item.url contains '/assets/' or item.url contains '/search.json' or item.url contains '/404' %}
-{% if item.url %}
   <url>
-    <loc>{{ site.url }}{{ item.url }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <loc>https://mensur.org/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
-{% endif %}
-{% endunless %}
-{% endfor %}
+  <url>
+    <loc>https://mensur.org/project/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mensur.org/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mensur.org/research-lines/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mensur.org/articles/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mensur.org/notes/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mensur.org/archive/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mensur.org/bibliography/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mensur.org/contact/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mensur.org/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://mensur.org/search/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
 </urlset>
