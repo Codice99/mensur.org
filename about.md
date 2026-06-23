@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Gabriel Gabrielli Sánchez is a European lawyer, economist and doctoral researcher with a multidisciplinary profile across law, economics, European regulation, financial markets, international trade, software engineering, genealogy, nobility, symbolism, Mesmerism, Western esotericism and European intellectual history.
+Gabriel Gabrielli Sanchez is a European lawyer, economist and doctoral researcher with a multidisciplinary profile across law, economics, European regulation, financial markets, international trade, software engineering, genealogy, nobility, symbolism, Mesmerism, Western esotericism and European intellectual history.
 
 He is the founder of Mensur | A Weissmann–Greiffenberg Institute Project, conceived as a public cultural and intellectual platform devoted to lineage, nobility, aristocratic memory, genealogy, heraldry, symbolic systems, Western esotericism, Mesmerism and European historical consciousness.
 

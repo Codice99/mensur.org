@@ -4,7 +4,7 @@ url: "https://mensur.org"
 baseurl: ""
 
 author:
-  name: "Gabriel Gabrielli Sánchez"
+  name: "Gabriel Gabrielli Sanchez"
 
 permalink: /:categories/:year/:month/:day/:title/
 
