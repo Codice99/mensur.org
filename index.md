@@ -5,71 +5,88 @@ title: Home
 
 <section class="hero">
   <div class="hero-content">
-    <p class="eyebrow">Weissmann–Greiffenberg Research Archive</p>
+    <p class="eyebrow">Weissmann–Greiffenberg Institute Project</p>
     <h1>Mensur</h1>
     <p class="hero-subtitle">
-      A research archive on lineage, law and European memory.
+      Lineage, nobility, identity, symbolism and European legal thought.
     </p>
     <p class="hero-text">
-      Genealogy, European historical memory, energy law, symbolism, intellectual history and long-form research notes.
+      Mensur is an emerging cultural and intellectual project devoted to noble memory, Jewish aristocratic history, genealogy, Western esotericism, European identity, legal thought and contemporary energy regulation.
     </p>
     <div class="hero-actions">
-      <a class="button primary" href="/articles/">Read Articles</a>
-      <a class="button secondary" href="/research-lines/">Research Lines</a>
+      <a class="button primary" href="/project/">The Project</a>
+      <a class="button secondary" href="/about/">About Gabriel</a>
     </div>
+  </div>
+</section>
+
+<section class="section two-column">
+  <div>
+    <p class="eyebrow">Name & Spirit</p>
+    <h2>The meaning of Mensur</h2>
+  </div>
+  <div>
+    <p>
+      The name <em>Mensur</em> refers to the Central European tradition of academic fencing: a discipline of distance, composure, honour and form.
+    </p>
+    <p>
+      Within the symbolic horizon of the Weissmann and Greiffenberg families, it evokes not violence, but measure; not spectacle, but discipline; not nostalgia, but continuity.
+    </p>
   </div>
 </section>
 
 <section class="section">
   <div class="section-heading">
-    <p class="eyebrow">Structure</p>
-    <h2>Research Lines</h2>
-    <p>The archive is organised around six connected fields of research.</p>
+    <p class="eyebrow">Institute Project</p>
+    <h2>The Weissmann–Greiffenberg horizon</h2>
+    <p>
+      Mensur brings together lineage, nobility, Jewish aristocratic memory, genealogy, symbolism, European historical consciousness and legal-energy research.
+    </p>
   </div>
 
   <div class="grid cards">
-    <a class="card" href="/research-lines/">
+    <a class="card" href="/project/">
       <span class="card-number">I</span>
-      <h3>Mediterranean–Levantine</h3>
-      <p>Italy, Spain, Greece, Jewish-Greek memory, the Eastern Mediterranean and the Levantine horizon.</p>
+      <h3>Weissmann & Greiffenberg</h3>
+      <p>Two noble family traditions rooted in Central Europe: Prussia, Germany, Austria and the Alpine–Northern Italian world.</p>
     </a>
 
     <a class="card" href="/research-lines/">
       <span class="card-number">II</span>
-      <h3>Germanic–Alpine</h3>
-      <p>Weissmann, Greiffenberg, Gabrielli, Austria, Tyrol, Germany and Central Europe.</p>
+      <h3>Lineage & Nobility</h3>
+      <p>Genealogy, aristocratic memory, noble traditions, family history and the reconstruction of European lineages.</p>
     </a>
 
     <a class="card" href="/research-lines/">
       <span class="card-number">III</span>
-      <h3>Nordic–Arctic</h3>
-      <p>Northern memory, Scandinavian hypotheses, migration traditions and the symbolic North.</p>
+      <h3>Jewish Aristocratic Memory</h3>
+      <p>Jewish history, identity, memory and the cultural intersections between Jewish and European aristocratic worlds.</p>
     </a>
 
     <a class="card" href="/research-lines/">
       <span class="card-number">IV</span>
-      <h3>Eastern Slavic–Eurasian</h3>
-      <p>Russian, Eastern European and Eurasian traces in family memory and historical reconstruction.</p>
+      <h3>Symbolism & Esotericism</h3>
+      <p>Western esotericism, heraldry, symbolic systems, ritual forms, myth, memory and intellectual history.</p>
     </a>
 
     <a class="card" href="/research-lines/">
       <span class="card-number">V</span>
       <h3>Energy Law & Hydrogen</h3>
-      <p>EU energy regulation, renewable hydrogen, internal market design and regulatory clarity.</p>
+      <p>EU energy regulation, renewable hydrogen, internal market design, infrastructure and regulatory clarity.</p>
     </a>
 
-    <a class="card" href="/research-lines/">
+    <a class="card" href="/about/">
       <span class="card-number">VI</span>
-      <h3>Symbolism & Intellectual History</h3>
-      <p>Heraldry, symbolic systems, Western esotericism, myth, memory and intellectual traditions.</p>
+      <h3>Gabriel Gabrielli Sánchez</h3>
+      <p>Lawyer, economist and doctoral researcher with a multidisciplinary profile across law, energy, genealogy, symbolism and European intellectual history.</p>
     </a>
   </div>
 </section>
 
 <section class="section dark-section">
   <div class="section-heading">
-    <p class="eyebrow">Latest</p>
-    <h2>Featured Articles</h2>
+    <p class="eyebrow">Essays & Notes</p>
+    <h2>Articles</h2>
   </div>
 
   <div class="article-grid">
@@ -86,15 +103,15 @@ title: Home
 
 <section class="section two-column">
   <div>
-    <p class="eyebrow">Archive</p>
-    <h2>A digital cabinet of notes and fragments</h2>
+    <p class="eyebrow">Purpose</p>
+    <h2>A future association or foundation</h2>
   </div>
   <div>
     <p>
-      Mensur is designed as a long-term personal archive: part research notebook, part genealogical cabinet, part essay platform.
+      From the convergence of the Weissmann and Greiffenberg family traditions arises a duty of preservation, study and transmission.
     </p>
     <p>
-      It combines structured articles with shorter notes, bibliographic entries, archival references and thematic pages.
+      Mensur is conceived as the first public form of a future association or foundation devoted to memory, culture, research and intellectual continuity.
     </p>
   </div>
 </section>
