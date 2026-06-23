@@ -1736,3 +1736,23 @@ body.inner-page .post-page {
     padding-top: 112px !important;
   }
 }
+
+/* FINAL CLEAN FOOTER */
+.site-footer {
+  width: 100% !important;
+  padding: 28px 48px !important;
+  margin: 0 !important;
+  text-align: center !important;
+
+  background: #07111f !important;
+  color: rgba(255, 255, 255, 0.78) !important;
+
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.13em !important;
+  text-transform: uppercase !important;
+
+  border: 0 !important;
+  border-top: 1px solid rgba(199, 164, 81, 0.22) !important;
+  box-shadow: none !important;
+}
