@@ -5,7 +5,7 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}Mensur</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description }}">
-  <link rel="stylesheet" href="/assets/css/style.css?v=footer-final-clean">
+  <link rel="stylesheet" href="/assets/css/style.css?v=mega-menu-v1">
 
 
   <link rel="icon" type="image/png" href="/favicon.png?v=fixed-shield-1">
@@ -31,7 +31,88 @@
       <a href="/bibliography/">Bibliography</a>
       <a href="/about/">About</a>
     </nav>
-  </header>
+    <button class="mega-menu-open" type="button" aria-label="Open menu" aria-expanded="false">
+    <span>Menu</span>
+    <span class="mega-menu-icon">☰</span>
+  </button>
+</header>
+
+<div class="mensur-menu-overlay" aria-hidden="true">
+  <div class="mensur-menu-panel">
+    <div class="mensur-menu-head">
+      <a class="mensur-menu-brand" href="/">
+        <img src="/assets/images/mensur-shield-header.png?v=menu-shield-1" alt="Mensur shield">
+        <span>Mensur</span>
+      </a>
+      <button class="mega-menu-close" type="button" aria-label="Close menu">×</button>
+    </div>
+
+    <div class="mensur-menu-grid">
+      <section class="menu-group open">
+        <button class="menu-group-title" type="button">
+          <span>Project</span>
+          <span class="menu-arrow">↓</span>
+        </button>
+        <div class="menu-group-content">
+          <a href="/project/">The Project</a>
+          <a href="/research-lines/">Weissmann–Greiffenberg Horizon</a>
+          <a href="/about/">About</a>
+        </div>
+      </section>
+
+      <section class="menu-group">
+        <button class="menu-group-title" type="button">
+          <span>Research</span>
+          <span class="menu-arrow">↓</span>
+        </button>
+        <div class="menu-group-content">
+          <a href="/research-lines/">Lineage & Nobility</a>
+          <a href="/research-lines/">Jewish Aristocratic Memory</a>
+          <a href="/research-lines/">Symbolism & Esotericism</a>
+          <a href="/research-lines/">Energy Law & Hydrogen</a>
+        </div>
+      </section>
+
+      <section class="menu-group">
+        <button class="menu-group-title" type="button">
+          <span>Articles</span>
+          <span class="menu-arrow">↓</span>
+        </button>
+        <div class="menu-group-content">
+          <a href="/articles/">All Articles</a>
+          <a href="/notes/">Notes</a>
+          <a href="/archive/">Archive</a>
+          <a href="/bibliography/">Bibliography</a>
+        </div>
+      </section>
+
+      <section class="menu-group">
+        <button class="menu-group-title" type="button">
+          <span>Archive</span>
+          <span class="menu-arrow">↓</span>
+        </button>
+        <div class="menu-group-content">
+          <a href="/archive/">Archive</a>
+          <a href="/bibliography/">Bibliography</a>
+          <a href="/notes/">Research Notes</a>
+        </div>
+      </section>
+
+      <section class="menu-group open">
+        <button class="menu-group-title" type="button">
+          <span>Profile</span>
+          <span class="menu-arrow">↓</span>
+        </button>
+        <div class="menu-group-content">
+          <a href="/about/">Public Curriculum</a>
+          <a href="/contact/">Contact</a>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- /mensur-menu-overlay -->
+
 
   <main>
     {{ content }}
@@ -42,5 +123,6 @@
   </footer>
 
   <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/menu.js?v=mega-menu-v1"></script>
 </body>
 </html>
