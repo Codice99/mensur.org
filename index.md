@@ -64,7 +64,7 @@ title: Home
       </article>
 
       <article class="clean-feature-card">
-        <p class="clean-card-kicker">Law</p>
+        <p class="clean-card-kicker">Mesmerism</p>
         <h3>Mesmerism</h3>
         <p>
           Mesmerism, animal magnetism, altered states, symbolic imagination and Western esoteric history.
