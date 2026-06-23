@@ -1223,3 +1223,73 @@ footer,
     margin-left: auto !important;
   }
 }
+
+/* LEGAL FOOTER + TRADE MARK SYMBOL */
+
+.brand-symbol {
+  font-size: 0.48em;
+  vertical-align: super;
+  margin-left: 1px;
+  line-height: 0;
+  letter-spacing: 0;
+}
+
+.footer-symbol {
+  font-size: 0.55em;
+  vertical-align: super;
+  margin-left: 1px;
+  letter-spacing: 0;
+}
+
+.site-footer {
+  margin-top: 80px !important;
+  padding: 34px 24px !important;
+  border-top: 1px solid rgba(17, 24, 39, 0.10) !important;
+  background: rgba(250, 247, 239, 0.92) !important;
+  text-align: center !important;
+}
+
+.footer-brand {
+  color: #0b1730 !important;
+  font-size: 12px !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.16em !important;
+  text-transform: uppercase !important;
+}
+
+.footer-links {
+  margin-top: 16px !important;
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  gap: 18px !important;
+}
+
+.footer-links a {
+  color: #667085 !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+}
+
+.footer-links a:hover {
+  color: #9a7429 !important;
+}
+
+@media (max-width: 820px) {
+  .site-footer {
+    margin-top: 56px !important;
+    padding: 30px 20px !important;
+  }
+
+  .footer-brand {
+    font-size: 11px !important;
+    line-height: 1.7 !important;
+  }
+
+  .footer-links {
+    gap: 14px !important;
+  }
+}
