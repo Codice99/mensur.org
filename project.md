@@ -36,7 +36,7 @@ Its future purpose is to develop into an association, foundation or cultural ins
 - Western esotericism, symbolism and heraldry;
 - European intellectual and cultural history;
 - Mediterranean, Germanic-Alpine, Nordic-Arctic and Eastern Slavic-Eurasian research lines;
-- European energy law, renewable hydrogen and regulatory design;
+- Mesmerism, animal magnetism and the history of Western esoteric imagination;
 - articles, essays, notes and public intellectual work.
 
 Mensur is the first public form of that project.

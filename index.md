@@ -11,7 +11,7 @@ title: Home
       Lineage, nobility, identity, symbolism and European legal thought.
     </p>
     <p class="hero-text">
-      Mensur is an institutional and intellectual project devoted to noble memory, Jewish aristocratic history, genealogy, Western esotericism, European identity, legal thought and contemporary energy regulation.
+      Mensur is an institutional and intellectual project devoted to noble memory, Jewish aristocratic history, genealogy, Western esotericism, European identity, legal thought and contemporary symbolic and esoteric studies.
     </p>
     <div class="hero-actions">
       <a class="button primary" href="/project/">The Project</a>
@@ -26,7 +26,7 @@ title: Home
       <p class="clean-kicker">Institute Project</p>
       <h2 class="clean-home-title">The Weissmann–Greiffenberg horizon</h2>
       <p class="clean-home-intro">
-        Mensur brings together lineage, nobility, Jewish aristocratic memory, genealogy, symbolism, European historical consciousness and legal-energy research.
+        Mensur brings together lineage, nobility, Jewish aristocratic memory, genealogy, symbolism, European historical consciousness and symbolic, esoteric and intellectual-historical research.
       </p>
     </div>
 
@@ -65,9 +65,9 @@ title: Home
 
       <article class="clean-feature-card">
         <p class="clean-card-kicker">Law</p>
-        <h3>Energy Law & Hydrogen</h3>
+        <h3>Mesmerism</h3>
         <p>
-          EU energy regulation, renewable hydrogen, internal market design, infrastructure and regulatory clarity.
+          Mesmerism, animal magnetism, altered states, symbolic imagination and Western esoteric history.
         </p>
       </article>
 

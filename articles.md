@@ -6,7 +6,7 @@ permalink: /articles/
 
 Long-form essays, research articles and structured reflections connected with Mensur and the Weissmann–Greiffenberg Institute Project.
 
-Topics include lineage, nobility, Jewish history, aristocratic memory, identity, symbolism, Mensur, Western esotericism, European history, law, hydrogen and energy regulation.
+Topics include lineage, nobility, Jewish history, aristocratic memory, identity, symbolism, Mensur, Mesmerism, Western esotericism, European history and intellectual history.
 
 <ul class="post-list">
 {% for post in site.posts %}

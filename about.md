@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Gabriel Gabrielli Sánchez is a lawyer, economist and doctoral researcher with a multidisciplinary profile spanning law, economics, European energy regulation, renewable hydrogen, software engineering, genealogy, nobility, identity, symbolism and European intellectual history.
+Gabriel Gabrielli Sánchez is a lawyer, economist and doctoral researcher with a multidisciplinary profile spanning law, economics, Mesmerism, symbolism and Western esoteric history, software engineering, genealogy, nobility, identity, symbolism and European intellectual history.
 
 He holds a Law Degree from the University of Almería, a Master’s Degree in International Trade from Universidad Carlos III de Madrid, a Master in Financial Markets and Asset Management from Instituto de Estudios Bursátiles, and a Master’s Degree in Access to the Legal Profession from Universidad Autónoma de Madrid. He also holds the professional qualification of lawyer in Spain and is registered as an economist.
 
-His doctoral research focuses on European energy regulation, renewable hydrogen, regulatory design and the legal architecture of the European internal energy market.
+His doctoral research focuses on Mesmerism, symbolism and Western esoteric history, regulatory design and the legal architecture of the European internal energy market.
 
 His broader intellectual work includes genealogy, aristocratic memory, Jewish history, nobility, Western esotericism, heraldry, symbolic systems, languages and the historical formation of European identity.
 
@@ -18,7 +18,7 @@ As the present representative of a convergent Weissmann–Greiffenberg family me
 
 - Lawyer
 - Economist
-- Doctoral researcher in European energy regulation and renewable hydrogen
+- Doctoral researcher in Mesmerism, symbolism and Western esoteric history
 - Law graduate, University of Almería
 - Master’s Degree in International Trade, Universidad Carlos III de Madrid
 - Master in Financial Markets and Asset Management, Instituto de Estudios Bursátiles
@@ -26,11 +26,11 @@ As the present representative of a convergent Weissmann–Greiffenberg family me
 - Software engineering and computer systems studies
 - Researcher of genealogy, nobility and aristocratic memory
 - Student of Western esotericism, symbolism and intellectual history
-- Author of essays and research notes on law, energy, lineage, identity and European memory
+- Author of essays and research notes on law, lineage, identity, symbolism, Mesmerism and European memory
 
 ## Fields of work and interest
 
-- European energy law and hydrogen regulation
+- European mesmerism and magnetic imagination
 - EU internal market and infrastructure regulation
 - Regulatory design, compliance and governance
 - Law, economics and public policy

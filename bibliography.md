@@ -13,5 +13,5 @@ Books, academic articles, legal sources, archival records, primary documents and
 - Central European history
 - Austrian and German nobility
 - Mediterranean and Levantine history
-- Energy law and hydrogen regulation
+- Mesmerism and magnetic imagination
 - Symbolism and intellectual history

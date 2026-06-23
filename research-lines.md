@@ -38,6 +38,6 @@ Eastern European, Russian and Eurasian traces in family memory and historical re
 
 Heraldry, symbolic systems, ritual forms, Western esotericism, myth, memory, Jungian depth psychology and European intellectual traditions.
 
-## IX. Energy Law & Hydrogen Regulation
+## IX. Mesmerism
 
-European energy law, renewable hydrogen, regulatory design, internal energy market, infrastructure, unbundling, third-party access and implementation challenges.
+Mesmerism, animal magnetism, altered states, invisible forces, magnetic imagination and the cultural border between science, psychology, ritual and Western esotericism.
