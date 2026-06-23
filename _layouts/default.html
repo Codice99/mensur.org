@@ -12,12 +12,12 @@
   <link rel="shortcut icon" href="/favicon.ico?v=fixed-shield-1">
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png?v=fixed-shield-1">
 
-  <link rel="stylesheet" href="/assets/css/home-clean-v2.css?v=about-profile-v2">
+  <link rel="stylesheet" href="/assets/css/home-clean-v2.css?v=search-final-nav-v1">
 </head>
 <body class="{% if page.url == '/' %}home-page{% else %}inner-page{% endif %}">
   <header class="topbar">
   <a class="brand" href="/">
-    <img class="brand-logo" src="/assets/images/mensur-shield-header.png?v=desktop-mobile-nav-final" alt="Mensur shield">
+    <img class="brand-logo" src="/assets/images/mensur-shield-header.png?v=search-final-nav" alt="Mensur shield">
     <span>Mensur</span>
   </a>
 
@@ -27,7 +27,6 @@
 
   <nav class="nav" aria-label="Main navigation">
     <a href="/">Home</a>
-    <a href="/search/">Search</a>
     <a href="/project/">Project</a>
     <a href="/research-lines/">Research</a>
     <a href="/articles/">Articles</a>
@@ -35,6 +34,11 @@
     <a href="/archive/">Archive</a>
     <a href="/bibliography/">Bibliography</a>
     <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a class="nav-search-link" href="/search/" aria-label="Search Mensur">
+      <span>Search</span>
+      <span class="nav-search-icon" aria-hidden="true"></span>
+    </a>
   </nav>
 </header>
 
