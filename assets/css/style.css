@@ -2137,3 +2137,48 @@ body.menu-open {
     padding-top: 122px !important;
   }
 }
+
+/* === MINIMAL ELEGANT FOOTER === */
+
+.site-footer {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 34px 24px 38px !important;
+
+  background: #f4f1ea !important;
+  color: rgba(17, 24, 39, 0.55) !important;
+
+  border: 0 !important;
+  border-top: 1px solid rgba(17, 24, 39, 0.08) !important;
+  box-shadow: none !important;
+
+  text-align: center !important;
+}
+
+.footer-inner {
+  display: inline-flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 4px !important;
+}
+
+.footer-brand {
+  color: rgba(17, 24, 39, 0.78) !important;
+  font-size: 15px !important;
+  font-weight: 760 !important;
+  letter-spacing: -0.02em !important;
+  text-transform: none !important;
+}
+
+.footer-project {
+  color: rgba(17, 24, 39, 0.48) !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.02em !important;
+  text-transform: none !important;
+}
+
+/* Eliminar estilos anteriores del footer */
+.site-footer * {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
