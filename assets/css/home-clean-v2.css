@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --site-bg: #f4f1ea;
+  --site-bg-alt: #efebe3;
+  --panel: #ffffff;
+  --panel-border: #e4dfd6;
+  --ink: #0b1730;
+  --muted: #667085;
+  --gold: #caa34d;
+  --nav-glass: rgba(8, 18, 34, 0.22);
+  --nav-line: rgba(255, 255, 255, 0.10);
+  --shadow-soft: 0 10px 30px rgba(16, 24, 40, 0.06);
+}
+
+html,
+body {
+  background: var(--site-bg) !important;
+}
+
+body,
+button,
+input,
+textarea,
+select,
+a,
+p,
+li,
+span,
+div {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.brand {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  letter-spacing: -0.04em !important;
+}
+
+/* Header más moderno y limpio */
+.topbar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+
+  background: var(--nav-glass) !important;
+  backdrop-filter: blur(18px) saturate(145%) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(145%) !important;
+
+  border-bottom: 1px solid var(--nav-line) !important;
+  box-shadow: none !important;
+}
+
+.brand {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 14px !important;
+  color: #ffffff !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  text-decoration: none !important;
+}
+
+.brand-logo {
+  width: 42px !important;
+  height: 42px !important;
+  object-fit: contain !important;
+  display: block !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,0.28));
+}
+
+.nav a {
+  color: rgba(255,255,255,0.88) !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+}
+
+.nav a:hover {
+  color: #ffffff !important;
+}
+
+.hero {
+  padding-top: 140px !important;
+}
+
+.container-wide {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.clean-home-section {
+  padding: 88px 0;
+  background: var(--site-bg);
+}
+
+.clean-home-section-alt {
+  background: var(--site-bg-alt);
+}
+
+.clean-intro {
+  max-width: 860px;
+  margin-bottom: 34px;
+}
+
+.clean-intro-compact {
+  margin-bottom: 28px;
+}
+
+.clean-kicker {
+  margin: 0 0 12px;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.clean-home-title {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(44px, 6vw, 72px);
+  line-height: 0.96;
+}
+
+.clean-home-intro {
+  max-width: 860px;
+  margin-top: 20px;
+  color: var(--muted);
+  font-size: 21px;
+  line-height: 1.7;
+}
+
+.clean-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 38px;
+}
+
+.clean-feature-card {
+  background: rgba(255,255,255,0.86);
+  border: 1px solid var(--panel-border);
+  border-radius: 18px;
+  padding: 30px;
+  min-height: 220px;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.clean-feature-card:hover {
+  transform: translateY(-3px);
+  border-color: #d7c6a0;
+  box-shadow: 0 18px 40px rgba(16, 24, 40, 0.09);
+}
+
+.clean-card-kicker {
+  margin: 0 0 14px;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.clean-feature-card h3,
+.clean-article-card h3 {
+  margin: 0 0 14px;
+  color: var(--ink);
+  font-size: 22px;
+  line-height: 1.15;
+  font-weight: 800;
+}
+
+.clean-feature-card p:not(.clean-card-kicker),
+.clean-article-card p:not(.clean-card-kicker) {
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.clean-article-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.clean-article-card {
+  background: #0d1a32;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: none;
+}
+
+.clean-article-card h3 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.clean-article-card h3 a:hover {
+  color: #f2d17c;
+}
+
+.clean-article-card p:not(.clean-card-kicker) {
+  color: rgba(255,255,255,0.72) !important;
+}
+
+.clean-read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #f2d17c !important;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Ocultar estilos viejos si aún aparecen en otras partes */
+.card-number,
+.badge {
+  display: none !important;
+}
+
+/* Mejor coherencia en páginas internas */
+.content-page {
+  max-width: 1100px !important;
+  margin: 0 auto !important;
+  padding: 140px 24px 80px !important;
+  background: transparent !important;
+}
+
+.content-page h1 {
+  color: var(--ink) !important;
+  font-size: clamp(42px, 6vw, 68px) !important;
+  line-height: 0.98 !important;
+  margin-bottom: 24px !important;
+}
+
+.content-page p,
+.content-page li {
+  color: var(--muted) !important;
+  font-size: 18px !important;
+  line-height: 1.75 !important;
+}
+
+/* Footer limpio */
+.site-footer {
+  background: #091223 !important;
+  color: rgba(255,255,255,0.74) !important;
+  text-align: center !important;
+  padding: 22px 24px !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  border-top: 1px solid rgba(255,255,255,0.08) !important;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .clean-article-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .clean-feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 820px) {
+  .container-wide {
+    width: min(100%, calc(100% - 28px));
+  }
+
+  .clean-feature-grid,
+  .clean-article-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .clean-home-section {
+    padding: 64px 0;
+  }
+
+  .clean-home-title {
+    font-size: 42px;
+  }
+
+  .clean-home-intro {
+    font-size: 18px;
+  }
+
+  .clean-feature-card,
+  .clean-article-card {
+    padding: 24px;
+    min-height: unset;
+  }
+
+  .brand-logo {
+    width: 38px !important;
+    height: 38px !important;
+  }
+
+  .brand {
+    font-size: 18px !important;
+  }
+
+  .hero {
+    padding-top: 120px !important;
+  }
+}
