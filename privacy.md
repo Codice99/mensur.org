@@ -56,6 +56,10 @@ You may exercise these rights by writing to:
 
 ## Cookies and analytics
 
-At this stage, Mensur does not require non-essential cookies for the contact form.
+Mensur may use Cloudflare Web Analytics to understand general website traffic and performance, including page views, visitor counts, referrers, device types and general location information.
 
-If analytics or non-essential cookies are introduced in the future, the website should provide appropriate information and, where required, obtain consent.
+Cloudflare Web Analytics is intended to provide aggregated website metrics without using analytics cookies or tracking individual users across websites.
+
+At this stage, Mensur does not use advertising cookies, behavioural tracking cookies or Google Analytics.
+
+If non-essential cookies or additional tracking technologies are introduced in the future, the website should provide appropriate information and, where required, obtain consent.
