@@ -1,0 +1,15 @@
+title: Mensur
+description: "A research archive on lineage, law and European memory."
+url: "https://mensur.org"
+baseurl: ""
+
+author:
+  name: "Gabriel Gabrielli Sánchez"
+
+permalink: /:categories/:year/:month/:day/:title/
+
+collections:
+  pages:
+    output: true
+
+markdown: kramdown
