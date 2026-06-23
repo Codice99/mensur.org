@@ -356,3 +356,86 @@ a {
 .hero-text {
   text-shadow: 0 2px 14px rgba(0,0,0,0.35);
 }
+
+/* FINAL ROYAL-ARCHIVE HERO: image only in the upper banner */
+.hero {
+  min-height: 62vh !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  padding: 120px 6vw 70px 6vw !important;
+  background-image:
+    linear-gradient(90deg, rgba(10, 18, 38, 0.86), rgba(10, 18, 38, 0.52), rgba(10, 18, 38, 0.18)),
+    linear-gradient(to bottom, rgba(0,0,0,0.10), rgba(0,0,0,0.42)),
+    url("/assets/images/hero-mensur.jpg") !important;
+  background-size: cover !important;
+  background-position: center 38% !important;
+  background-repeat: no-repeat !important;
+  color: #fff8ec !important;
+  border-bottom: 6px solid #b89b5e !important;
+}
+
+.hero-content {
+  max-width: 820px !important;
+  background: rgba(8, 12, 24, 0.36);
+  border-left: 4px solid #b89b5e;
+  padding: 28px 34px;
+  backdrop-filter: blur(2px);
+}
+
+.hero h1 {
+  color: #fff8ec !important;
+  font-size: clamp(58px, 10vw, 132px) !important;
+  letter-spacing: -0.055em !important;
+  text-shadow: 0 4px 22px rgba(0,0,0,0.55) !important;
+}
+
+.hero-subtitle {
+  color: #fff8ec !important;
+  font-size: clamp(24px, 3.5vw, 42px) !important;
+  text-shadow: 0 3px 16px rgba(0,0,0,0.55) !important;
+}
+
+.hero-text {
+  color: rgba(255, 248, 236, 0.88) !important;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.50) !important;
+}
+
+.topbar {
+  background: rgba(247, 242, 231, 0.96) !important;
+  border-bottom: 1px solid rgba(16, 24, 39, 0.16) !important;
+}
+
+.brand {
+  color: #101827 !important;
+}
+
+.nav a {
+  color: #333936 !important;
+}
+
+.nav a:hover {
+  color: #6d1f2a !important;
+}
+
+.button.primary {
+  background: #b89b5e !important;
+  color: #101827 !important;
+}
+
+.button.secondary {
+  border: 1px solid rgba(255, 248, 236, 0.65) !important;
+  color: #fff8ec !important;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 900px) {
+  .hero {
+    min-height: 58vh !important;
+    padding: 90px 24px 48px 24px !important;
+    background-position: center center !important;
+  }
+
+  .hero-content {
+    padding: 22px 24px;
+  }
+}
