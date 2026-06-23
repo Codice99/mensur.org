@@ -439,3 +439,57 @@ a {
     padding: 22px 24px;
   }
 }
+
+/* Royal / institutional dark navigation bar */
+.topbar {
+  background: #101827 !important;
+  border-bottom: 3px solid #b89b5e !important;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22) !important;
+}
+
+.brand {
+  color: #fff8ec !important;
+  font-size: 31px !important;
+  letter-spacing: 0.06em !important;
+}
+
+.brand::after {
+  content: " Weissmann–Greiffenberg Institute Project";
+  display: block;
+  margin-top: -3px;
+  font-family: system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #b89b5e;
+}
+
+.nav a {
+  color: rgba(255, 248, 236, 0.84) !important;
+  padding: 8px 0;
+  border-bottom: 1px solid transparent;
+}
+
+.nav a:hover {
+  color: #ffffff !important;
+  border-bottom: 1px solid #b89b5e !important;
+}
+
+.nav-toggle {
+  color: #fff8ec !important;
+  border: 1px solid rgba(255, 248, 236, 0.35) !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+}
+
+@media (max-width: 900px) {
+  .brand::after {
+    font-size: 9px;
+    letter-spacing: 0.12em;
+  }
+
+  .nav {
+    background: #101827 !important;
+    border-top: 1px solid rgba(255, 248, 236, 0.16);
+  }
+}
