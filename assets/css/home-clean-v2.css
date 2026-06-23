@@ -838,3 +838,36 @@ h6,
     padding-top: 130px !important;
   }
 }
+
+/* === FINAL MINIMAL FOOTER === */
+
+.site-footer {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 34px 24px !important;
+
+  background: #f4f1ea !important;
+  border-top: 1px solid rgba(11, 23, 48, 0.10) !important;
+  box-shadow: none !important;
+
+  text-align: center !important;
+}
+
+.site-footer-inner {
+  max-width: 1180px !important;
+  margin: 0 auto !important;
+
+  color: rgba(11, 23, 48, 0.72) !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.13em !important;
+  text-transform: uppercase !important;
+  line-height: 1.5 !important;
+}
+
+/* Elimina cualquier barra negra vieja del footer */
+footer,
+.site-footer,
+.site-footer * {
+  box-sizing: border-box !important;
+}

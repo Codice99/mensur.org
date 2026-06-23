@@ -2562,3 +2562,12 @@ body.menu-open {
     display: inline-flex !important;
   }
 }
+
+/* HARD OVERRIDE: no black footer bar */
+.site-footer {
+  background: #f4f1ea !important;
+  color: rgba(11, 23, 48, 0.72) !important;
+  border-top: 1px solid rgba(11, 23, 48, 0.10) !important;
+  text-align: center !important;
+  box-shadow: none !important;
+}
