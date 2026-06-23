@@ -12,29 +12,29 @@
   <link rel="shortcut icon" href="/favicon.ico?v=fixed-shield-1">
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png?v=fixed-shield-1">
 
-  <link rel="stylesheet" href="/assets/css/home-clean-v2.css?v=desktop-nav-fix-v1">
+  <link rel="stylesheet" href="/assets/css/home-clean-v2.css?v=hamburger-dropdown-final">
 </head>
 <body class="{% if page.url == '/' %}home-page{% else %}inner-page{% endif %}">
   <header class="topbar">
-    <a class="brand" href="/">
-  <img class="brand-logo" src="/assets/images/mensur-shield-header.png?v=fixed-shield-1" alt="Mensur shield">
-  <span>Mensur</span>
-</a>
-    <button class="nav-toggle" id="navToggle">Menu</button>
-    <nav class="nav" id="siteNav">
-      <a href="/">Home</a>
-      <a href="/project/">Project</a>
-      <a href="/research-lines/">Research</a>
-      <a href="/articles/">Articles</a>
-      <a href="/notes/">Notes</a>
-      <a href="/archive/">Archive</a>
-      <a href="/bibliography/">Bibliography</a>
-      <a href="/about/">About</a>
-    </nav>
-    <button class="mega-menu-open" type="button" aria-label="Open menu" aria-expanded="false">
-    <span>Menu</span>
-    <span class="mega-menu-icon">☰</span>
+  <a class="brand" href="/">
+    <img class="brand-logo" src="/assets/images/mensur-shield-header.png?v=hamburger-menu-final" alt="Mensur shield">
+    <span>Mensur</span>
+  </a>
+
+  <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+    <span aria-hidden="true">☰</span>
   </button>
+
+  <nav class="nav" aria-label="Main navigation">
+    <a href="/">Home</a>
+    <a href="/project/">Project</a>
+    <a href="/research-lines/">Research</a>
+    <a href="/articles/">Articles</a>
+    <a href="/notes/">Notes</a>
+    <a href="/archive/">Archive</a>
+    <a href="/bibliography/">Bibliography</a>
+    <a href="/about/">About</a>
+  </nav>
 </header>
 
 <div class="mensur-menu-overlay" aria-hidden="true">
@@ -121,8 +121,6 @@
   <footer class="footer">
     <p>MENSUR | A Weissmann–Greiffenberg Institute Project</p>
   </footer>
-
-  <script src="/assets/js/main.js"></script>
   <script src="/assets/js/menu.js?v=mega-menu-v1"></script>
 <footer class="site-footer">
   <div class="footer-inner">
@@ -130,5 +128,6 @@
     <span class="footer-project">Weissmann–Greiffenberg Institute Project</span>
   </div>
 </footer>
+  <script defer src="/assets/js/main.js?v=hamburger-dropdown-final"></script>
 </body>
 </html>
