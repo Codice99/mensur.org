@@ -9,7 +9,6 @@ description: "An essay on Mesmerism, animal magnetism, hypnotic influence, herme
 permalink: /articles/mesmeric-arts/
 ---
 
-Mesmeric Arts
 Speaking of Mesmerism in the twenty-first century, we find ourselves before a great unknown. Although there was a time when this concept was recurrent, in the present times of the abyss, where the binary code we visualize is uncertain and, in most cases, no longer human, society is not familiar with these concepts.
 
 In ancient times, alchemy and Hermeticism, among others, favored the creation of cultural spaces, normally initiatory, where the instinctive connection with occultism and sensory capacities was established in order to help man understand the origin of the world.
