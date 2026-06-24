@@ -6,14 +6,10 @@ author: "Friedrich Weissmann"
 categories: [mesmerism, western-esotericism, symbolism]
 tags: [Mesmerism, animal magnetism, hypnotism, hermeticism, Western esotericism, symbolism]
 description: "An essay on Mesmerism, animal magnetism, hypnotic influence, hermetic imagination and the uncertain border between science, ritual and Western esotericism."
+permalink: /articles/mesmeric-arts/
 ---
 
-<p class="post-author">by Friedrich Weissmann</p>
-
 Mesmeric Arts
-
-by Friedrich Weissmann
-
 Speaking of Mesmerism in the twenty-first century, we find ourselves before a great unknown. Although there was a time when this concept was recurrent, in the present times of the abyss, where the binary code we visualize is uncertain and, in most cases, no longer human, society is not familiar with these concepts.
 
 In ancient times, alchemy and Hermeticism, among others, favored the creation of cultural spaces, normally initiatory, where the instinctive connection with occultism and sensory capacities was established in order to help man understand the origin of the world.
