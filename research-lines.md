@@ -16,7 +16,7 @@ The study of family memory, noble traditions, aristocratic identity, documentary
 
 ## III. Aristocratic Memory
 
-historical memory, identity, family narratives and the intersections between historical memory, aristocratic culture and European historical consciousness.
+Historical memory, identity, family narratives and the intersections between historical memory, aristocratic culture and European historical consciousness.
 
 ## IV. Germanic–Alpine
 
