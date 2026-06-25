@@ -14,9 +14,9 @@ This line of research brings together genealogy, documentary reconstruction, fam
 
 The study of family memory, noble traditions, aristocratic identity, documentary traces and the historical reconstruction of European lineages.
 
-## III. Jewish Aristocratic Memory
+## III. Aristocratic Memory
 
-Jewish history, identity, family narratives and the intersections between Jewish memory, aristocratic culture and European historical consciousness.
+historical memory, identity, family narratives and the intersections between historical memory, aristocratic culture and European historical consciousness.
 
 ## IV. Germanic–Alpine
 
@@ -24,7 +24,7 @@ The Weissmann, Greiffenberg and Gabrielli lines within Germanic, Austrian, Tyrol
 
 ## V. Mediterranean–Levantine
 
-Italy, Spain, Greece, Jewish-Greek memory, the Eastern Mediterranean and the Levantine horizon.
+Italy, Spain, Greece, Greek and Mediterranean memory, the Eastern Mediterranean and the Levantine horizon.
 
 ## VI. Nordic–Arctic
 

@@ -16,7 +16,7 @@ His work brings together legal analysis, economic reasoning, regulatory structur
 
 ## Education
 
-Gabriel holds a Law Degree from the University of Almeria, a Master’s Degree in International Trade from Universidad Carlos III de Madrid, a Master in Financial Markets and Asset Management from Instituto de Estudios Bursatiles, and a Master’s Degree in Access to the Legal Profession from Universidad Autonoma de Madrid.
+Gabriel holds a Law Degree from the University of Almeria, a Master’s Degree in International Trade from Universidad Carlos III de Madrid, a Master in Financial Markets and Asset Management from Instituto de Estudios Bursatiles and a Master’s Degree in Access to the Legal Profession from Universidad Autonoma de Madrid.
 
 ## Doctoral research
 

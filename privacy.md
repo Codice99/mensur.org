@@ -8,7 +8,7 @@ This Privacy Notice explains how personal data submitted through the Mensur cont
 
 ## Controller
 
-Mensur | A Weissmann–Greiffenberg Institute Project  
+Mensur | A Weissmann–Greiffenberg Institute Project 
 Contact: **contact@mensur.org**
 
 At this stage, Mensur is an emerging cultural and intellectual project connected with Gabriel Gabrielli Sanchez.

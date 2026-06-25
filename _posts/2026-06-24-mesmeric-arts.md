@@ -13,11 +13,11 @@ Speaking of Mesmerism in the twenty-first century, we find ourselves before a gr
 
 In ancient times, alchemy and Hermeticism, among others, favored the creation of cultural spaces, normally initiatory, where the instinctive connection with occultism and sensory capacities was established in order to help man understand the origin of the world.
 
-By contrast, the current paradigm is extremely different. As in a dystopian book, the tools we have created to make our work easier and allow us a more ephemeral life, full of pleasures and with a reduced amount of work, have begun to replace the human being, becoming the absolute protagonists of the near future. I am not going to waste the reader’s time by giving a masterclass on what Mesmerism is or on the initial concepts that describe the phenomenon. Nor am I going to provide abstract descriptions of animal magnetism or of its creator; rather, with the permission of those who read my words, and if G-d allows it, I shall begin directly from the end.
+By contrast, the current paradigm is extremely different. As in a dystopian book, the tools we have created to make our work easier and allow us a more ephemeral life, full of pleasures and with a reduced amount of work, have begun to replace the human being, becoming the absolute protagonists of the near future. I am not going to waste the reader’s time by giving a masterclass on what Mesmerism is or on the initial concepts that describe the phenomenon. Nor am I going to provide abstract descriptions of animal magnetism or of its creator; rather, with the permission of those who read my words and if G-d allows it, I shall begin directly from the end.
 
-The principles of the universe are clearly scientific; however, do they correspond to our science? Do they correspond to human laws? Can we define the universe as an environment that functions according to the laws of our species, or at least according to our discoveries? Certainly, mathematical language is the most accurate, and the one that contributes to every step we take; every force, every physical particle, everything responds to science and, specifically, to mathematical principles.
+The principles of the universe are clearly scientific; however, do they correspond to our science? Do they correspond to human laws? Can we define the universe as an environment that functions according to the laws of our species, or at least according to our discoveries? Certainly, mathematical language is the most accurate and the one that contributes to every step we take; every force, every physical particle, everything responds to science and, specifically, to mathematical principles.
 
-But science, if it is truly science, must not become a prison built by its own instruments. To measure is not always to understand. To classify is not always to dominate. Man has often believed that reality ends where his method ends, and this is one of the great errors of our age. The universe does not ask permission from human language in order to exist, nor does the invisible cease to operate because the modern mind has not yet given it an acceptable name.
+But science, if it is truly science, must not become a prison built by its own instruments. To measure is not always to understand. To classify is not always to dominate. Man has often believed that reality ends where his method ends and this is one of the great errors of our age. The universe does not ask permission from human language in order to exist, nor does the invisible cease to operate because the modern mind has not yet given it an acceptable name.
 
 This is the first door through which Mesmerism must be understood.
 
@@ -83,7 +83,7 @@ And perhaps this is why it frightens the modern world.
 
 Because Mesmerism reveals that man is not the sovereign rational animal he pretends to be. He is also dream, body, fear, image, obedience, memory and desire. He is open. He is influenceable. He is capable of being wounded by symbols and healed by symbols. He is capable of entering another state and returning changed.
 
-The animal magnetism of Mesmer may remain veiled in uncertainty, but the hypnotic truth of Mesmerism stands before us with undeniable force: consciousness can be directed, the body can respond, and the invisible architecture of meaning can transform the visible life of man.
+The animal magnetism of Mesmer may remain veiled in uncertainty, but the hypnotic truth of Mesmerism stands before us with undeniable force: consciousness can be directed, the body can respond and the invisible architecture of meaning can transform the visible life of man.
 
 That is not superstition.
 

@@ -4,12 +4,12 @@ url: "https://mensur.org"
 baseurl: ""
 
 author:
-  name: "Gabriel Gabrielli Sanchez"
+ name: "Gabriel Gabrielli Sanchez"
 
 permalink: /:categories/:year/:month/:day/:title/
 
 collections:
-  pages:
-    output: true
+ pages:
+ output: true
 
 markdown: kramdown

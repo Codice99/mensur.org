@@ -4,7 +4,7 @@ title: Project
 permalink: /project/
 ---
 
-Mensur is the public platform of the Weissmann–Greiffenberg Institute Project, an emerging cultural and intellectual initiative dedicated to lineage, nobility, Jewish aristocratic memory, genealogy, identity, symbolism, European history, Western esotericism and legal thought.
+Mensur is the public platform of the Weissmann–Greiffenberg Institute Project, an emerging cultural and intellectual initiative dedicated to lineage, nobility, aristocratic memory, genealogy, identity, symbolism, European history, Western esotericism and legal thought.
 
 ## The Weissmann–Greiffenberg horizon
 
@@ -14,7 +14,7 @@ According to family tradition and ongoing genealogical reconstruction, these fam
 
 From the convergence of these houses arises the purpose of Mensur: to preserve, study and transmit a family and intellectual heritage that extends beyond private memory into culture, research and public reflection.
 
-The project is not intended as a monument to one individual. It is conceived as a cultural platform: a future association, foundation or institute project devoted to memory, lineage, identity, nobility, Jewish history, symbolism and European thought.
+The project is not intended as a monument to one individual. It is conceived as a cultural platform: a future association, foundation or institute project devoted to memory, lineage, identity, nobility, historical memory, symbolism and European thought.
 
 ## The name Mensur
 
@@ -32,7 +32,7 @@ Its future purpose is to develop into an association, foundation or cultural ins
 
 - lineage, genealogy and family memory;
 - nobility, aristocratic culture and historical identity;
-- Jewish history and Jewish aristocratic memory;
+- historical memory and aristocratic memory;
 - Western esotericism, symbolism and heraldry;
 - European intellectual and cultural history;
 - Mediterranean, Germanic-Alpine, Nordic-Arctic and Eastern Slavic-Eurasian research lines;
