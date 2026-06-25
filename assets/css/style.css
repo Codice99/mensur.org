@@ -2654,3 +2654,88 @@ body.menu-open {
   border-radius: 16px;
   color: #64748b;
 }
+
+/* Cripta private access page */
+
+.cripta-hero {
+  padding: 2.2rem 0 1.4rem;
+}
+
+.cripta-label {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid rgba(202, 163, 77, 0.55);
+  border-radius: 999px;
+  color: #b08a2e;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+.cripta-hero h1 {
+  margin-bottom: 0.75rem;
+}
+
+.cripta-subtitle {
+  max-width: 720px;
+  color: #64748b;
+  font-size: 1.18rem;
+}
+
+.cripta-panel {
+  margin: 2rem 0;
+  padding: 1.8rem 2rem;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(248,246,240,0.92));
+  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.08);
+}
+
+.cripta-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.cripta-status-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.cripta-status-card {
+  padding: 1.25rem;
+  border: 1px solid rgba(202, 163, 77, 0.28);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.82);
+}
+
+.cripta-status-card span {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #b08a2e;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.cripta-status-card strong {
+  display: block;
+  color: #0f172a;
+  font-size: 1.15rem;
+}
+
+.cripta-notice {
+  margin-top: 2rem;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid rgba(202, 163, 77, 0.75);
+  background: rgba(202, 163, 77, 0.08);
+  color: #475569;
+}
+
+@media (max-width: 760px) {
+  .cripta-status-grid {
+    grid-template-columns: 1fr;
+  }
+}
