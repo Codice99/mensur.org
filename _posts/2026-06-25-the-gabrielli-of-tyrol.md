@@ -4,7 +4,7 @@ title: "The Gabrielli of Tyrol"
 date: 2026-06-25
 author: "Friedrich Weissmann"
 permalink: /articles/the-gabrielli-of-tyrol/
-categories: [genealogy, alpine-history, tyrol]
+categories: [genealogy, alpine-history, tyrol, germanic-alpine, genealogy-lineage]
 tags: [Gabrielli, Tyrol, Trentino, Greiffenberg, Alpine genealogy, Italian nobility, Habsburg world, family history, European genealogy]
 description: "A historical and genealogical reconstruction of the Gabrielli of Tyrol, an Alpine branch of an old Italian family line shaped by Trentino, Tyrol, Catholic parish memory and the Germanic-Alpine world."
 ---

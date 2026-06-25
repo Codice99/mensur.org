@@ -3,7 +3,7 @@ layout: post
 title: "Mesmeric Arts"
 date: 2026-06-24
 author: "Friedrich Weissmann"
-categories: [mesmerism, western-esotericism, symbolism]
+categories: [mesmerism, western-esotericism, symbolism, symbolism-esotericism]
 tags: [Mesmerism, animal magnetism, hypnotism, hermeticism, Western esotericism, symbolism]
 description: "An essay on Mesmerism, animal magnetism, hypnotic influence, hermetic imagination and the uncertain border between science, ritual and Western esotericism."
 permalink: /articles/mesmeric-arts/

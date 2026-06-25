@@ -4,7 +4,7 @@ title: "The Hidden Forest of Slavic Paganism"
 date: 2026-06-24
 author: "Friedrich Weissmann"
 permalink: /articles/the-hidden-forest-of-slavic-paganism/
-categories: [paganism, slavic-paganism, comparative-mythology]
+categories: [paganism, slavic-paganism, comparative-mythology, slavic-eurasian]
 tags: [Slavic paganism, Germanic paganism, Perun, Veles, Rodnovery, Indo-European mythology, folklore, ancestors, Western esotericism]
 description: "A reflection on Slavic paganism, Germanic echoes and the forgotten pagan alternatives of the East."
 ---
