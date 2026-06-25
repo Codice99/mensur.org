@@ -7,9 +7,6 @@ description: "Private archival access area of the Weissmann-Greiffenberg Institu
 
 <div class="cripta-hero">
   <p class="cripta-label">PRIVATE ACCESS</p>
-
-  <h1>Cripta</h1>
-
   <p class="cripta-subtitle">
     Restricted archival area of the Weissmann-Greiffenberg Institute Project.
   </p>
