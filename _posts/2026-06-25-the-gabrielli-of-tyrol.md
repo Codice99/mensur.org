@@ -13,7 +13,7 @@ description: "A historical and genealogical reconstruction of the Gabrielli of T
 
 To speak of the Gabrielli of Tyrol is to speak of a family placed at the crossing point of Italy and the Germanic Alps. The name Gabrielli carries an unmistakably Italian form, rooted in the older aristocratic and civic world of central Italy; yet the Tyrolean branch belongs to another landscape: valleys, passes, parish registers, Habsburg frontiers, Trentino churches, mountain communities, and the complex borderland between Latin and German Europe.
 
-This is not the history of a surname floating in abstraction. It is the history of a line. The documentary material preserved in the family dossier gives a coherent genealogical chain beginning with Bartholomeus de Baccaresca de Gabrielli, passing through Charles de Baccaresca de Gabrielli and Maria Theresia von Greiffenberg, and continuing through Bartholomeus Gabrielli, Daniele, Matheus, Bartolomeo, Bartholomeus, Massimiliano or Stefano Massimiliano, Domenico, Marsilio Massimiliano, Giovanni, and the modern bearer of the family memory.
+This is not the history of a surname floating in abstraction. It is the history of a line. The documentary material preserved in the family dossier gives a coherent genealogical chain beginning with Bartholomeus de Baccaresca de Gabrielli, passing through Charles de Baccaresca de Gabrielli and Maria Theresia von Greiffenberg, and continuing through Bartholomeus Gabrielli, Daniele, Matheus, Bartolomeo, Bartholomeus, Massimiliano or Stefano Massimiliano, Domenico, and the living heirs who continue the family memory.
 
 The Gabrielli of Tyrol should therefore be understood as an Alpine branch of an older Italian house: Italian in name, Catholic in record, Tyrolean in territory, and Central European in historical atmosphere.
 
@@ -69,9 +69,7 @@ The family dossier preserves the following genealogical sequence as the central 
 
 11. Domenico Gabrielli, born in 1874 and deceased in 1943, direct modern ascendant of the Gabrielli line.
 
-12. Marsilio Massimiliano Gabrielli, born in 1915 and deceased in 1974, continuation of the modern paternal line.
-
-13. Giovanni Gabrielli, born in 1954, immediate modern paternal link.
+12. The living heirs of the Gabrielli line, whose existence preserves the continuity of the family memory into the present without requiring the publication of recent private names.
 
 This chain is not merely a list of names. It is a structure of historical passage. It carries the family from the early modern period into the twentieth century: from the age of noble houses and imperial borderlands to the modern European family.
 
@@ -145,17 +143,15 @@ Massimiliano or Stefano Massimiliano Gabrielli, born in 1835 and deceased in 191
 
 The presence of Stefano Massimiliano in the documentary material is important not only genealogically, but historically. He marks the continuity of the family during the period in which many old European families ceased to be noble or territorial powers and became modern civil families, carrying their memory through names, documents, and private archives rather than jurisdiction or public authority.
 
-## The Twentieth Century: Domenico, Marsilio, and Giovanni
+## The Twentieth Century: Domenico and the Living Heirs
 
 With Domenico Gabrielli, born in 1874 and deceased in 1943, the history enters the violent twentieth century. Domenico belongs to the generation that saw the final collapse of the old European order. His lifetime included the First World War, the redrawing of borders, the rise of modern ideological conflict, and the destruction brought by the Second World War.
 
 In the family memory, Domenico is not merely a name in a chain. He represents the human face of a line that passed through violence, occupation, and political fracture. Through him, the Gabrielli of Tyrol cease to be only an early modern or nineteenth-century subject. They become part of the wounded history of modern Europe.
 
-Marsilio Massimiliano Gabrielli, born in 1915 and deceased in 1974, continues the line through the twentieth century. His very name preserves the echo of Massimiliano, one of the older names in the family chain. This repetition matters. It shows continuity not only in blood, but in naming culture.
+After Domenico, the line continues through living heirs and descendants who preserve the family memory into the present. At this point, the historical reconstruction no longer needs to publish recent private names. It is enough to state that the Gabrielli line did not end as an antiquarian fragment, but survived as living continuity.
 
-Giovanni Gabrielli, born in 1954, brings the line into the living present. Through him, the older Gabrielli-Tyrolean memory reaches the contemporary generation.
-
-This modern sequence is essential. A family history that ends in the seventeenth century is an antiquarian fragment. A family history that reaches the twentieth century becomes living continuity.
+This modern continuity is essential. A family history that ends in the seventeenth century is an antiquarian fragment. A family history that reaches the present becomes living memory.
 
 ## Names, Variants, and the Borderland Problem
 
@@ -180,7 +176,7 @@ Their history contains several layers:
 * the union with the Greiffenberg element;
 * the Trentino parish and onomastic trace;
 * the nineteenth-century continuation through Bartholomeus and Stefano Massimiliano;
-* the twentieth-century survival through Domenico, Marsilio, and Giovanni.
+* the twentieth-century survival through Domenico and the living heirs of the line.
 
 This is not a fragmented history. It is a layered one. The Gabrielli of Tyrol are Italian and Alpine, Latin and Germanic, local and transregional, Catholic and European.
 
@@ -188,7 +184,7 @@ Their deepest historical meaning lies precisely in this layered continuity. They
 
 ## Conclusion
 
-The Gabrielli of Tyrol should be read as an Alpine branch of an old Italian family, shaped by the Trentino-Tyrolean world and preserved through a clear genealogical chain. Their history begins in the early modern documentary sequence of Bartholomeus de Baccaresca de Gabrielli and Charles de Baccaresca de Gabrielli, receives a decisive Alpine-Germanic element through Maria Theresia von Greiffenberg, and continues through Bartholomeus, Daniele, Matheus, Bartolomeo, Bartholomeus, Massimiliano, Domenico, Marsilio, and Giovanni.
+The Gabrielli of Tyrol should be read as an Alpine branch of an old Italian family, shaped by the Trentino-Tyrolean world and preserved through a clear genealogical chain. Their history begins in the early modern documentary sequence of Bartholomeus de Baccaresca de Gabrielli and Charles de Baccaresca de Gabrielli, receives a decisive Alpine-Germanic element through Maria Theresia von Greiffenberg, and continues through Bartholomeus, Daniele, Matheus, Bartolomeo, Bartholomeus, Massimiliano, Domenico, and the living heirs of the line.
 
 Their world was not the flat world of modern nationalism. It was the older Europe of passes, valleys, bishoprics, imperial frontiers, parish books, family pantheons, and names written in several forms by several hands. That is why the Gabrielli of Tyrol matter. They are not merely a surname. They are a historical line showing how Italy, Tyrol, Trentino, and the Germanic Alps could meet inside one family.
 
