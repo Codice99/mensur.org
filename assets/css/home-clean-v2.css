@@ -1490,3 +1490,16 @@ body.inner-page .content-page > p:first-of-type {
     font-size: 16.5px !important;
   }
 }
+
+/* Clickable home cards */
+
+.clickable-card {
+  cursor: pointer !important;
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease !important;
+}
+
+.clickable-card:hover {
+  transform: translateY(-3px) !important;
+  border-color: rgba(202, 163, 77, 0.45) !important;
+  box-shadow: 0 24px 60px rgba(16, 24, 40, 0.12) !important;
+}

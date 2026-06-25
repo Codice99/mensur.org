@@ -14,7 +14,7 @@
  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
  <link rel="stylesheet" href="/assets/css/style.css?v=layout-final-clean-v2">
- <link rel="stylesheet" href="/assets/css/home-clean-v2.css?v=layout-final-clean-v2">
+ <link rel="stylesheet" href="/assets/css/home-clean-v2.css?v=no-jewish-clickable-cards-v1">
 </head>
 
 <body class="{% if page.url == '/' %}home-page{% else %}inner-page{% endif %}">
@@ -59,19 +59,19 @@
  </footer>
 
  <script>
- document.addEventListener("DOMContentLoaded", function  {
+ document.addEventListener("DOMContentLoaded", function {
  const toggle = document.querySelector(".nav-toggle");
  const nav = document.querySelector(".nav");
 
  if (!toggle || !nav) return;
 
- toggle.addEventListener("click", function  {
+ toggle.addEventListener("click", function {
  const open = nav.classList.toggle("open");
  toggle.setAttribute("aria-expanded", open ? "true" : "false");
  });
 
  nav.querySelectorAll("a").forEach(function (link) {
- link.addEventListener("click", function  {
+ link.addEventListener("click", function {
  nav.classList.remove("open");
  toggle.setAttribute("aria-expanded", "false");
  });
@@ -79,6 +79,8 @@
  });
  </script>
 
- <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "33e9dc89a39f4ee18a7f0d5e76886ee8"}'></script><!-- End Cloudflare Web Analytics -->
+ <script src="/assets/js/main.js?v=clickable-cards-v1"></script>
+
+  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "33e9dc89a39f4ee18a7f0d5e76886ee8"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

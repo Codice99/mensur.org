@@ -17,7 +17,7 @@ Search Mensur by keyword, name, topic or article title.
 <div id="site-search-results" class="search-results"></div>
 
 <script>
-document.addEventListener("DOMContentLoaded", async function  {
+document.addEventListener("DOMContentLoaded", async function {
  const input = document.getElementById("site-search-input");
  const results = document.getElementById("site-search-results");
  const status = document.getElementById("site-search-status");
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", async function  {
  return;
  }
 
- input.addEventListener("input", function  {
+ input.addEventListener("input", function {
  render(input.value);
  });
 
