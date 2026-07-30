@@ -3,15 +3,11 @@ layout: default
 ---
 
 <article class="post-page">
- <header class="post-masthead">
-  <div class="post-masthead-inner">
-   <a class="post-back-link" href="/articles/">Articles</a>
-   <h1>{{ page.title }}</h1>
-   <p class="post-meta">
-   {{ page.date | date: "%d %B %Y" }}{% if page.author %} · by {{ page.author }}{% endif %}
-   </p>
-  </div>
- </header>
+ <h1>{{ page.title }}</h1>
+
+ <p class="post-meta">
+ {{ page.date | date: "%d %B %Y" }}{% if page.author %} · by {{ page.author }}{% endif %}
+ </p>
 
  <div class="post-content">
  {{ content }}
