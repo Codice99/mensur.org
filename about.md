@@ -61,7 +61,6 @@ image: /assets/images/gabriel-gabrielli-sanchez.jpg
     <section class="profile-section">
       <h2>Education</h2>
       <p>His academic background combines law, economics, finance, trade and technology. It includes a Law Degree from the University of Almeria; a Master’s Degree in International Trade from Universidad Carlos III de Madrid; a Master’s in Financial Markets and Asset Management from Instituto de Estudios Bursatiles; a Master’s Degree in Access to the Legal Profession from Universidad Autonoma de Madrid; and a Master’s in Software Engineering from Universidad Internacional de La Rioja.</p>
-      <p>His academic record includes an 8.98/10 in Law, an 8.89/10 in International Trade and a 10/10 master’s dissertation. This multidisciplinary formation allows him to examine institutions not only as legal structures, but also as economic systems and increasingly as technological environments.</p>
     </section>
 
     <section class="profile-section">
