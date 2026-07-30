@@ -89,9 +89,10 @@
 
  <link rel="stylesheet" href="/assets/css/style.css?v=profile-card-v1">
  <link rel="stylesheet" href="/assets/css/home-clean-v2.css?v=no-jewish-clickable-cards-v1">
+ <link rel="stylesheet" href="/assets/css/modern-kwm.css?v=kwm-modern-v1">
 </head>
 
-<body class="{% if page.url == '/' %}home-page{% else %}inner-page{% endif %}">
+<body class="{% if page.url == '/' %}home-page{% else %}inner-page{% endif %} layout-{{ page.layout | default: 'default' }}">
  <header class="topbar">
  <a class="brand" href="/">
  <img class="brand-logo" src="/assets/images/mensur-shield-header.png?v=layout-final-clean-v2" alt="Mensur shield">
@@ -124,12 +125,25 @@
  </main>
 
  <footer class="site-footer">
- <div class="footer-brand">MENSUR<span class="footer-symbol">™</span> | A WEISSMANN-GREIFFENBERG INSTITUTE PROJECT</div>
- <nav class="footer-links" aria-label="Footer navigation">
- <a href="/contact/">Contact</a>
- <a href="/privacy/">Privacy Notice</a>
- <a href="/legal/">Legal Notice</a>
- </nav>
+ <div class="modern-footer-shell">
+   <div class="modern-footer-identity">
+     <a class="modern-footer-brand" href="/">
+       <img src="/assets/images/mensur-shield-header.png" width="88" height="88" alt="">
+       <span>MENSUR<span class="footer-symbol">™</span></span>
+     </a>
+     <p>A Weissmann–Greiffenberg Institute Project</p>
+   </div>
+   <nav class="footer-links" aria-label="Footer navigation">
+     <a href="/project/">Project</a>
+     <a href="/research-lines/">Research</a>
+     <a href="/articles/">Articles</a>
+     <a href="/about/">About</a>
+     <a href="/contact/">Contact</a>
+     <a href="/privacy/">Privacy Notice</a>
+     <a href="/legal/">Legal Notice</a>
+   </nav>
+   <p class="modern-footer-copy">© 2026 Mensur. All rights reserved.</p>
+ </div>
  </footer>
 
  <script>
