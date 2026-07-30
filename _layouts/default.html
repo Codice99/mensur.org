@@ -3,24 +3,26 @@
 <head>
 {% assign default_description = "Mensur | A Weissmann-Greiffenberg Institute Project. Lineage, nobility, aristocratic memory, genealogy, symbolism, Mesmerism, Western esotericism and European intellectual history." %}
 {% assign meta_description = page.description | default: default_description %}
+{% assign meta_title = page.meta_title | default: page.title %}
+{% assign meta_image = page.image | default: "/assets/images/mensur-logo.png" %}
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
 
- <title>{% if page.title %}{{ page.title }} | {% endif %}Mensur</title>
+ <title>{% if meta_title %}{{ meta_title }} | {% endif %}Mensur</title>
  <meta name="description" content="{{ meta_description | escape }}">
 
  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
  <meta property="og:type" content="{% if page.url == '/about/' %}profile{% else %}website{% endif %}">
- <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}Mensur">
+ <meta property="og:title" content="{% if meta_title %}{{ meta_title | escape }} | {% endif %}Mensur">
  <meta property="og:description" content="{{ meta_description | escape }}">
  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
- <meta property="og:image" content="{{ site.url }}/assets/images/mensur-logo.png">
+ <meta property="og:image" content="{{ site.url }}{{ meta_image }}">
  <meta property="og:site_name" content="Mensur">
  <meta name="twitter:card" content="summary">
- <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}Mensur">
+ <meta name="twitter:title" content="{% if meta_title %}{{ meta_title | escape }} | {% endif %}Mensur">
  <meta name="twitter:description" content="{{ meta_description | escape }}">
- <meta name="twitter:image" content="{{ site.url }}/assets/images/mensur-logo.png">
+ <meta name="twitter:image" content="{{ site.url }}{{ meta_image }}">
 
 {% if page.url == '/about/' %}
  <script type="application/ld+json">
@@ -30,6 +32,7 @@
    "name": "Gabriel Gabrielli Sanchez",
    "url": "https://mensur.org/about/",
    "mainEntityOfPage": "https://mensur.org/about/",
+   "image": "https://mensur.org/assets/images/gabriel-gabrielli-sanchez.jpg",
    "jobTitle": [
      "Founding Partner of Mensur",
      "Lawyer",
@@ -84,7 +87,7 @@
  <link rel="icon" type="image/png" sizes="512x512" href="/assets/images/google-favicon.png">
  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
- <link rel="stylesheet" href="/assets/css/style.css?v=layout-final-clean-v2">
+ <link rel="stylesheet" href="/assets/css/style.css?v=profile-card-v1">
  <link rel="stylesheet" href="/assets/css/home-clean-v2.css?v=no-jewish-clickable-cards-v1">
 </head>
 
