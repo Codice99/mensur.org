@@ -1,13 +1,84 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
+{% assign default_description = "Mensur | A Weissmann-Greiffenberg Institute Project. Lineage, nobility, aristocratic memory, genealogy, symbolism, Mesmerism, Western esotericism and European intellectual history." %}
+{% assign meta_description = page.description | default: default_description %}
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
 
  <title>{% if page.title %}{{ page.title }} | {% endif %}Mensur</title>
- <meta name="description" content="Mensur | A Weissmann-Greiffenberg Institute Project. Lineage, nobility, aristocratic memory, genealogy, symbolism, Mesmerism, Western esotericism and European intellectual history.">
+ <meta name="description" content="{{ meta_description | escape }}">
 
  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+ <meta property="og:type" content="{% if page.url == '/about/' %}profile{% else %}website{% endif %}">
+ <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}Mensur">
+ <meta property="og:description" content="{{ meta_description | escape }}">
+ <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+ <meta property="og:image" content="{{ site.url }}/assets/images/mensur-logo.png">
+ <meta property="og:site_name" content="Mensur">
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}Mensur">
+ <meta name="twitter:description" content="{{ meta_description | escape }}">
+ <meta name="twitter:image" content="{{ site.url }}/assets/images/mensur-logo.png">
+
+{% if page.url == '/about/' %}
+ <script type="application/ld+json">
+ {
+   "@context": "https://schema.org",
+   "@type": "Person",
+   "name": "Gabriel Gabrielli Sanchez",
+   "url": "https://mensur.org/about/",
+   "mainEntityOfPage": "https://mensur.org/about/",
+   "jobTitle": [
+     "Founding Partner of Mensur",
+     "Lawyer",
+     "Economist",
+     "Doctoral Researcher"
+   ],
+   "description": {{ meta_description | jsonify }},
+   "affiliation": {
+     "@type": "Organization",
+     "name": "Mensur",
+     "url": "https://mensur.org/"
+   },
+   "alumniOf": [
+     {
+       "@type": "CollegeOrUniversity",
+       "name": "University of Almeria"
+     },
+     {
+       "@type": "CollegeOrUniversity",
+       "name": "Universidad Carlos III de Madrid"
+     },
+     {
+       "@type": "CollegeOrUniversity",
+       "name": "Universidad Autonoma de Madrid"
+     }
+   ],
+   "knowsLanguage": [
+     "Spanish",
+     "Italian",
+     "English",
+     "German",
+     "French"
+   ],
+   "knowsAbout": [
+     "European Union law",
+     "EU energy law",
+     "Renewable hydrogen regulation",
+     "Economics",
+     "Financial markets",
+     "International trade",
+     "Software engineering",
+     "European intellectual history",
+     "Genealogy",
+     "Western esotericism",
+     "Mesmerism"
+   ]
+ }
+ </script>
+{% endif %}
 
  <link rel="icon" href="/favicon.ico">
  <link rel="icon" type="image/png" sizes="512x512" href="/assets/images/google-favicon.png">
@@ -81,6 +152,6 @@
 
  <script src="/assets/js/main.js?v=clickable-cards-v1"></script>
 
- <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "33e9dc89a39f4ee18a7f0d5e76886ee8"}'></script><!-- End Cloudflare Web Analytics -->
+ <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "33e9dc89a39f4ee18a7f0d5e76886ee8"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
