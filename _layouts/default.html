@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% assign default_description = "Mensur | A Weissmann-Greiffenberg Institute Project. Lineage, nobility, aristocratic memory, genealogy, symbolism, Mesmerism, Western esotericism and European intellectual history." %}
+{% assign meta_description = page.description | default: default_description %}
+{% assign meta_title = page.meta_title | default: page.title %}
+{% assign meta_image = page.image | default: "/assets/images/mensur-logo.png" %}
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <title>{% if meta_title %}{{ meta_title }} | {% endif %}Mensur</title>
+ <meta name="description" content="{{ meta_description | escape }}">
+
+ <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+ <meta property="og:type" content="{% if page.url == '/about/' %}profile{% else %}website{% endif %}">
+ <meta property="og:title" content="{% if meta_title %}{{ meta_title | escape }} | {% endif %}Mensur">
+ <meta property="og:description" content="{{ meta_description | escape }}">
+ <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+ <meta property="og:image" content="{{ site.url }}{{ meta_image }}">
+ <meta property="og:site_name" content="Mensur">
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:title" content="{% if meta_title %}{{ meta_title | escape }} | {% endif %}Mensur">
+ <meta name="twitter:description" content="{{ meta_description | escape }}">
+ <meta name="twitter:image" content="{{ site.url }}{{ meta_image }}">
+
+{% if page.url == '/about/' %}
+ <script type="application/ld+json">
+ {
+   "@context": "https://schema.org",
+   "@type": "Person",
+   "name": "Gabriel Gabrielli Sanchez",
+   "url": "https://mensur.org/about/",
+   "mainEntityOfPage": "https://mensur.org/about/",
+   "image": "https://mensur.org/assets/images/gabriel-gabrielli-sanchez.jpg",
+   "jobTitle": [
+     "Founding Partner of Mensur",
+     "Lawyer",
+     "Economist",
+     "Doctoral Researcher"
+   ],
+   "description": {{ meta_description | jsonify }},
+   "affiliation": {
+     "@type": "Organization",
+     "name": "Mensur",
+     "url": "https://mensur.org/"
+   },
+   "alumniOf": [
+     {
+       "@type": "CollegeOrUniversity",
+       "name": "University of Almeria"
+     },
+     {
+       "@type": "CollegeOrUniversity",
+       "name": "Universidad Carlos III de Madrid"
+     },
+     {
+       "@type": "CollegeOrUniversity",
+       "name": "Universidad Autonoma de Madrid"
+     }
+   ],
+   "knowsLanguage": [
+     "Spanish",
+     "Italian",
+     "English",
+     "German",
+     "French"
+   ],
+   "knowsAbout": [
+     "European Union law",
+     "EU energy law",
+     "Renewable hydrogen regulation",
+     "Economics",
+     "Financial markets",
+     "International trade",
+     "Software engineering",
+     "European intellectual history",
+     "Genealogy",
+     "Western esotericism",
+     "Mesmerism"
+   ]
+ }
+ </script>
+{% endif %}
+
+ <link rel="icon" href="/favicon.ico">
+ <link rel="icon" type="image/png" sizes="512x512" href="/assets/images/google-favicon.png">
+ <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+
+ <link rel="stylesheet" href="/assets/css/style.css?v=profile-card-v1">
+ <link rel="stylesheet" href="/assets/css/home-clean-v2.css?v=no-jewish-clickable-cards-v1">
+</head>
+
+<body class="{% if page.url == '/' %}home-page{% else %}inner-page{% endif %}">
+ <header class="topbar">
+ <a class="brand" href="/">
+ <img class="brand-logo" src="/assets/images/mensur-shield-header.png?v=layout-final-clean-v2" alt="Mensur shield">
+ <span>Mensur<sup class="brand-symbol">™</sup></span>
+ </a>
+
+ <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+ <span aria-hidden="true">☰</span>
+ </button>
+
+ <nav class="nav" aria-label="Main navigation">
+ <a href="/">Home</a>
+ <a href="/project/">Project</a>
+ <a href="/research-lines/">Research</a>
+ <a href="/articles/">Articles</a>
+ <a href="/notes/">Notes</a>
+ <a href="/cripta/">Cripta</a>
+ <a href="/bibliography/">Bibliography</a>
+ <a href="/about/">About</a>
+ <a href="/contact/">Contact</a>
+ <a class="nav-search-link" href="/search/" aria-label="Search Mensur">
+ <span>Search</span>
+ <span class="nav-search-icon" aria-hidden="true"></span>
+ </a>
+ </nav>
+ </header>
+
+ <main>
+ {{ content }}
+ </main>
+
+ <footer class="site-footer">
+ <div class="footer-brand">MENSUR<span class="footer-symbol">™</span> | A WEISSMANN-GREIFFENBERG INSTITUTE PROJECT</div>
+ <nav class="footer-links" aria-label="Footer navigation">
+ <a href="/contact/">Contact</a>
+ <a href="/privacy/">Privacy Notice</a>
+ <a href="/legal/">Legal Notice</a>
+ </nav>
+ </footer>
+
+ <script>
+ document.addEventListener("DOMContentLoaded", function {
+ const toggle = document.querySelector(".nav-toggle");
+ const nav = document.querySelector(".nav");
+
+ if (!toggle || !nav) return;
+
+ toggle.addEventListener("click", function {
+ const open = nav.classList.toggle("open");
+ toggle.setAttribute("aria-expanded", open ? "true" : "false");
+ });
+
+ nav.querySelectorAll("a").forEach(function (link) {
+ link.addEventListener("click", function {
+ nav.classList.remove("open");
+ toggle.setAttribute("aria-expanded", "false");
+ });
+ });
+ });
+ </script>
+
+ <script src="/assets/js/main.js?v=clickable-cards-v1"></script>
+
+ <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "33e9dc89a39f4ee18a7f0d5e76886ee8"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
